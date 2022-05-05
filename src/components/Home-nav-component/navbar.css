@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.menu_contaniers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 100%;
+    background-color: black;
+    z-index: 30;
+   line-height: 16px;
+}
+.menu_list_contaniers{
+    display: flex;
+    margin-right: 100px;
+}
+.menu_list_contaniers>li{
+    margin-left: 70px;
+    list-style: none;
+    font-size: 20px;
+    line-height: 20px;
+    
+}
+.nav_link{
+    text-decoration: none;
+    color: white;
+    
+}
+ .nav_link:hover{
+    border-bottom: 4px solid #70e1f5 ;
+    width: 20px;
+    transition: all 0.5s;
+    padding-bottom: 8px;
+}
+
+.menu_toggler div{
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 0.4rem;
+    background-color: white;
+    
+}
+.menu_toggler {
+    cursor: pointer;
+    display: none;
+    color: black;
+    margin-right: 10px;
+}  
+/* HOME PAGE */
+
+.home-image-contanier{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url("./body-image.jpg");
+    object-fit: contain;
+    overflow-x: hidden;
+    height: 500px;
+    background-position: center;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 30px;
+
+}
+
+.home-image-text{
+font-size: 20px; 
+margin-top: 20px;
+
+    
+}
+
+.home-image-button{
+  border-radius: 20px;
+  width: 170px;
+  height: 40px;
+  background-color: #70e1f5;
+  margin: 30px;
+  outline: none;
+  color: white;
+  box-shadow: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center!important;
+  padding-bottom: 13px;
+  border: solid transparent;
+}
+.demo-button-style{
+    text-decoration: none;
+    color: white;
+    font-size:18px; 
+    text-align:center;
+    padding-top:20px; 
+    outline: none; 
+}
+
+
+  
+  
+
+
+@media screen and (max-width:768px){
+    .home-image-contanier{
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .menu_toggler {
+        display: block;
+        margin-right: 30px;
+        text-align: center;
+    
+    }
+    .menu_list_contaniers{
+        position: fixed;
+        top: 3.5rem ;
+        right: 0!important;
+        width: 50%;
+        height: 100vh;
+        color: white;
+        flex-direction: column;
+        background-color: black;
+        margin: 0;
+        opacity: 0.9;
+        transform: translateX(100%);
+        transition: ease-in 0.5s;
+    }
+
+    .background-image{
+        padding-top: 70px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .menu_list_contaniers>li{
+        margin-top: 80px;
+        /* text-align: center; */
+    }
+    .home-image-contanier{
+        font-size: 30px;
+    
+    }
+    .home-image-text{
+        padding: 25px;
+        line-height: 25px;
+        text-align: center;
+    }
+    .home_text{
+        margin-top: 60px;
+    }
+    .category-body-contanier{
+text-align: center;
+height: auto;
+padding: 10px;
+    }
+ .category-contanier{
+     width: 100%;
+     padding: 20px;
+ }
+}
+
+/* to change what the hamburger menu looks like */
+.nav_active{
+    /* translate 0 makes it show */
+  transform: translateX(0);
+}
+
+
+/* toggler icon animation */
+.toggle .line1{
+transform: rotate(-45deg) translate(-4px,5px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-3px,5px)
+}
+
+/* HOME STYLING */
+.categories-contanier{
+    margin:50px 20px 10px;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center; 
+        overflow:hidden;
+}
+.category-contanier{
+
+    min-width: 30%;
+  height: 240px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 7.5px 15px;
+  overflow: hidden;
+  background-position: center;
+    background-size: cover;
+    
+}
+.category-contanier:hover{
+    opacity: 0.8;
+}
+.category-body-contanier{
+    width: auto;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+
+
+.category-h2 {
+    font-weight: bold;
+    margin: 0 6px 0;
+    font-size: 22px;
+    color: #4a4a4a;
+  }
+
+  .category-p {
+    font-weight: lighter;
+    font-size: 16px;
+  }   
+  

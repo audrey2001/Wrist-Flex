@@ -1,0 +1,53 @@
+/* DEMO CUSTOM STYLING */
+.row_contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20%;
+  }
+  
+  
+  
+  
+  
+  /* LIST CUSTOM STYLES */
+  .list-card-style{
+    margin:50px 30px 90px;
+    text-align: center;
+    
+  }
+  .list-card-style h2{
+    font-size:30px;
+    letter-spacing:5px;
+    padding:100px;
+    text-align:center;
+    margin-bottom: -50px;
+  }
+  .design{
+    width: 240px;
+  }
+
+.search{
+    border: 1px solid #70e1f5;
+    opacity: 0.3;
+}
+
+.scroll-item::-webkit-scrollbar{
+ display: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    .list-card-style h2{
+        font-size: 20px;
+        letter-spacing: 2px;
+        font-family: cursive;
+      }
+}
