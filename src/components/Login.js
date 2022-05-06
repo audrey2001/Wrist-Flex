@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 import "../components/Home-nav-component/navbar.css";
 import "./login.css";
 import Footer from "./Footer"
+import Navbar from"../components/Home-nav-component/NavBar"
 
 
 const Login = () => {
@@ -11,6 +12,8 @@ const Login = () => {
     
     return (
       <div>
+      <Navbar/>
+
       <div className="register_contanier">
        
        <form style={{marginTop: -80}} action="/action_page.php" class="register_form_container">
