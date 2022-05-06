@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Wrist-Flex/static/css/main.b2aa9275.css",
+    "main.js": "/Wrist-Flex/static/js/main.90a28b76.js",
+    "static/js/787.a1f0b9aa.chunk.js": "/Wrist-Flex/static/js/787.a1f0b9aa.chunk.js",
+    "static/media/body-image.jpg": "/Wrist-Flex/static/media/body-image.a12b33d7aca00259077d.jpg",
+    "index.html": "/Wrist-Flex/index.html",
+    "main.b2aa9275.css.map": "/Wrist-Flex/static/css/main.b2aa9275.css.map",
+    "main.90a28b76.js.map": "/Wrist-Flex/static/js/main.90a28b76.js.map",
+    "787.a1f0b9aa.chunk.js.map": "/Wrist-Flex/static/js/787.a1f0b9aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2aa9275.css",
+    "static/js/main.90a28b76.js"
+  ]
+}
