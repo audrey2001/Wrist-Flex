@@ -5,14 +5,10 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Home-nav-component/NavBar";
 
-// import NavBar from './NavBar';
+
 
 const Register = () => {
-  // const [user,setUser] = useState(user);
-
-  // useEffect(() =>{
-  //   localStorage.setUser('user',JSON.stringify(user))
-  // })
+  
   return (
     <div>
       <Navbar />

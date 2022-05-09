@@ -80,9 +80,9 @@ margin-top: 20px;
 }
 
 .home-image-button{
-  border-radius: 20px;
+  /* border-radius: 20px;
   width: 170px;
-  height: 40px;
+  line-height: 1;
   background-color: #70e1f5;
   margin: 30px;
   outline: none;
@@ -93,8 +93,21 @@ margin-top: 20px;
   justify-content: center;
   align-items: center;
   text-align: center!important;
-  padding-bottom: 13px;
-  border: solid transparent;
+  padding-top: 16px;
+    padding-bottom: 15px;
+  border: solid transparent; */
+
+  background-color:#70e1f5  ;
+    color: white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+    margin-top: 40px;
+    line-height: 1;
+    font-size: 13px;
+    border-radius: 20px;
 }
 .demo-button-style{
     text-decoration: none;
@@ -155,6 +168,9 @@ margin-top: 20px;
         padding: 25px;
         line-height: 25px;
         text-align: center;
+    }
+    .home-image-button{
+     width: 50%;
     }
     .home_text{
         margin-top: 60px;

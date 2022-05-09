@@ -3,20 +3,17 @@ import Login from "./components/Login";
 import Home from "./components/Home-nav-component/Home";
 import Register from "./components/Register";
 import Demo from "./components/demo.component/Demo";
-
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {Routes,Route} from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Login" element={<Login />} />
-          <Route path="/Register" element={<Register />} />
-          <Route path="/Demo" element={<Demo />} />
-        </Routes>
-      </Router>
+    <div className ="App">
+    <Routes>
+    <Route exact path ="/" index element ={<Home/>}/>
+    <Route exact path ="Login" element ={<Login/>}/>
+    <Route exact path ="Register" element ={<Register/>}/>
+    <Route exact path ="Demo" element ={<Demo/>}/>
+     </Routes> 
     </div>
   );
 };
