@@ -80,23 +80,6 @@ margin-top: 20px;
 }
 
 .home-image-button{
-  /* border-radius: 20px;
-  width: 170px;
-  line-height: 1;
-  background-color: #70e1f5;
-  margin: 30px;
-  outline: none;
-  color: white;
-  box-shadow: none;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center!important;
-  padding-top: 16px;
-    padding-bottom: 15px;
-  border: solid transparent; */
-
   background-color:#70e1f5  ;
     color: white;
     padding-top: 13px;
@@ -195,7 +178,8 @@ padding: 10px;
 
 /* toggler icon animation */
 .toggle .line1{
-transform: rotate(-45deg) translate(-4px,5px);
+transform: rotate(45deg) translate(9px,5px);
+transform-origin: 10% 10%;
 }
 
 .toggle .line2{
@@ -203,7 +187,8 @@ transform: rotate(-45deg) translate(-4px,5px);
 }
 
 .toggle .line3{
-    transform: rotate(45deg) translate(-3px,5px)
+    transform: rotate(-45deg) translate(-1px,5px);
+    transform-origin: 10% 90%;
 }
 
 /* HOME STYLING */

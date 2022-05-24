@@ -13,7 +13,7 @@ const Register = () => {
     <div>
       <Navbar />
       <div className="register_contanier">
-        <form class="register_form_container">
+        <div class="register_form_container">
           <h5 style={{ color: "black", marginTop: 50 }}>
             Order now, Cancel anytime
           </h5>
@@ -70,7 +70,7 @@ const Register = () => {
           {/* style={{color:"#70e1f5",textDecoration:"underline",fontSize:18,cursor:"pointer",marginLeft:5, borderBottom:0}}
 to="./Login">Login</NavLink></span></p>
          */}
-        </form>
+        </div>
       </div>
       <Footer />
     </div>
